@@ -1,0 +1,142 @@
+.header{
+    background-color: transparent;
+    height: 109px;
+    left: 306px;
+    position: absolute;
+    top: 48px;
+    width: 1086px;
+}
+.header-container {
+    margin-left: 20%;
+    background-color: transparent;
+    height: 109px;
+    left: 0;
+    position: fixed;
+    top: 50px;
+    width: 1086px;
+}
+
+.header-text{
+    color: #050505;
+    font-family: "Lettera Text LL-Medium", Helvetica;
+    font-size: 32px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.tab-bar{
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 16px;
+    left: 0;
+    position: absolute;
+    top: 69px;
+}
+
+.background-line {
+    background-color: #e4e4e4;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 38px;
+    width: 1086px;
+}
+
+.section {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.options-selected{
+    color: #4643ee;
+    font-family: "Lettera Text LL-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.highlight {
+    background-color: #4643ee;
+    border-radius: 100px;
+    height: 2px;
+    position: relative;
+    width: 92px;
+}
+
+.options{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 0px 0px 22px;
+    position: relative;
+    width: 92px;
+    cursor: pointer;
+}
+
+.div {
+    color: #adadad;
+    font-family: "Lettera Text LL-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.close {
+    align-items: center;
+    background-color: #f6d8d8;
+    border-radius: 7px;
+    display: inline-flex;
+    gap: 6px;
+    height: 40px;
+    left: 932px;
+    padding: 8px 16px;
+    position: absolute;
+    top: 53px;
+    transition: color 0.3s, cursor 0.3s, opacity 0.3s;
+}
+
+.close:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.icon{
+    height: 18px;
+    position: relative;
+    width: 18px;
+}
+
+.label{
+    color: #d13b3b;
+    font-family: "Lettera Text LL-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}

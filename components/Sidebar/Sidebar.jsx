@@ -69,8 +69,8 @@ const Sidebar = () => {
             <div className="avatar-data">
                 <div className="avatar-image" />
                 <div className="text-container">
-                <div className="avatar-name">Elon Musk</div>
-                <div className="avatar-email">elon@twitter.com</div>
+                <div className="avatar-name">Nisarg Thakkar</div>
+                <div className="avatar-email">nisarg@onjuno.com</div>
                 </div>
             </div>
         </div>

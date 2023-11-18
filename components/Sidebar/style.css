@@ -22,14 +22,14 @@
 }
 
 .container .logo {
-  height: 15.6px;
+  align-items: center;
+  height: 60px;
   object-fit: cover;
-  width: 50px;
   position: relative;
-  width: 70px;
+  width: 100%px;
 }
 
-.container .options {
+.options {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
